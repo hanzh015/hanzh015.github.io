@@ -1,0 +1,20 @@
+/* Navbar links */
+/*a {
+    float: left;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  /*.active {
+    background-color: #4CAF50;
+  }
