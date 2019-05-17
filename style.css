@@ -33,6 +33,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
+  .lan {
+    font-size: 20px;
+    font-weight: bold;
+  }
   /* Current/active navbar link */
   /*.active {
     background-color: #4CAF50;

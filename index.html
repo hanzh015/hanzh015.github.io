@@ -69,32 +69,84 @@
                     <div class="col-lg-12 bg-dark"><h3>Projects</h3></div>
                 </div>
                 <div class="row project" id="research">
-                    <div class="col-lg-4"><img src="tbc.jpg" width="100%"></div>
+                    <div class="col-lg-4"><img src="tbc.jpg" width="100%" height="100%"></div>
                     <div class="col-lg-8">
                         <h4>My paper under review</h4>
+                        <p><i class="fas fa-circle" style="color: blue"></i> Python </p>
                         <p>Due to the anonymous policy, this content will be released on finishing review process.</p>
                     </div>
                 </div>
-                <div class="row project" id="precedural_tree">
+                <div class="row project align-items-center" id="precedural_tree">
                     <div class="col-lg-4"><video width="100%" controls><source src="ProceduralTree.webm" type="video/webm"> </video>
                     </div>
                     <div class="col-lg-8">
-                        <h4>Procedural Generated Tree</h4>
-                        <p>Some intros</p>
+                        <h4>Procedural Generated Trees Using L-system(Collaborated Coursework) </h4>
+                        <p><i class="fas fa-circle" style="color: rgb(241, 95, 164)"></i> C++ </p>
+                        <p>In Computer Graphic and game industrial, generating huge number of plants models in
+                            real time is challenging. Therefore, instead of mannually crafting 3D models,
+                             people switch to procedural methods. On the other hand, 
+                             The recursive nature of L-system is fit for such job.<br>
+                        In this project we demonstrated generating 3D natural-like plants models using 
+                            L-system grammar with customized featured graphic interpreter. Specifically, we 
+                            <ul><li>extended the growing principles to three-dimension and built a mesh 
+                            modelgenerator that is capable of generating plants models meshes on demand. </li>
+                            <li>built our own OpenGL renderer for rendering the generated models.</li> 
+                            <li>designed an interactive GUI to view and manipulate the plant models in real time.</li></ul>
+                        </p>
+                        <p>See software demo in the video. Click<a href="Procedural_generating_of_plants_models_using_L_system.pdf">
+                             here
+                        </a>to view the final report.</p>
+
                     </div>
                 </div>
-                <div class="row project" id="angular">
+                <div class="row project align-items-center" id="angular">
                     <div class="col-lg-4"><img src="product_search.PNG" width="100%"></div>
                     <div class="col-lg-8">
-                        <h4>Web App for searching ebay products</h4>
-                        <p>some intros</p>
+                        <h4>Web App for searching ebay products(Individual Coursework)</h4>
+                        <p><i class="fas fa-circle" style="color: yellow"></i> JavaScript 
+                            <i class="fas fa-circle" style="color: orange"></i> HTML 
+                             <i class="fas fa-circle" style="color:rgb(81, 122, 137)"></i> TypeScript 
+                             <i class="fas fa-circle" style="color:purple"></i> CSS</p>
+                        <p>
+                            This is a coursework in USC CSCI 571: Web Technology class. I individually developed a 
+                            web app that can search and display products on ebay. Users by typing in a
+                            keyword and setting filters, can view the items list that meet their requirements,
+                             as well as the detailed information of each product. Moreover, we also provide 
+                             similar products as shopping recommendations, which is implemented by
+                             calling ebay Merchandising API on the backend. Technically, I
+                            <ul>
+                                <li>Wrote NodeJS scripts which
+                                    <ul>
+                                        <li>listens to AJAX calls from the front end web page,</li>
+                                        <li>calls ebay developers APIs to get raw JSON response,</li>
+                                        <li>responds frontend webpage with processed JSON text.</li>
+                                    </ul>
+                                </li>
+                                <li>Designed frontend webpage using Angular7, implemented two way data binding, page routing and
+                                        AJAX calls, set styling with Bootstrap to make it compatible with mobile devices.</li>
+                                <li>Deployed the app on Google Cloud Platform.</li>
+                            </ul>
+                        </p>
+                        <p>Click<a href="http://product-search-240322.appspot.com"> here </a> to view the web.
+                            Source code released <a href="https://github.com/hanzh015/product-search">here</a>.</p>
                     </div>
                 </div>
-                <div class="row project" id="andriod_app">
+                <div class="row project align-items-center" id="andriod_app">
                     <div class="col-lg-4"><video height="270px" width="100%" controls><source src="AndroidEmulator.webm" type="video/webm"></video></div>
                     <div class="col-lg-8">
-                        <h4>Android App</h4>
-                        <p>Some intors</p>
+                        <h4>Android App for searching ebay products(Individual Coursework)</h4>
+                        <p><i class="fas fa-circle" style="color: rgb(181, 129, 10)"></i> Java </p>
+                        <p>This is a follow-up project of the previous web app. We implemented all functions of the web app and
+                            they share the same backend. Technically, I
+                            <ul>
+                                <li>Developed the android app on AndroidStudio using Java.</li>
+                                <li>Designed user friendly layouts featured Navigation Bars, CardView, 
+                                        floating buttons and ViewPager.</li>
+                                <li>Implemented asynchronous functions including image loading and AJAX calls.</li>
+                            </ul> 
+                            Additionally, we call Google search api on the frontend to provide related images on Internet for each product.
+                        </p>
+                        <!--<p>Click<a href=""> here </a>to view the source code.</p>-->
                     </div>
                 </div>
 
@@ -102,6 +154,9 @@
             <div class="d-block" id="publication">
                 <div class="row subtitle">
                     <div class="col-lg-12 bg-dark"><h3>Publication</h3></div>
+                </div>
+                <div class="row project ">
+                    <div class="col-lg-12"><p style="color:wihte">To be released...</p></div>
                 </div>
             </div>
         </div>
